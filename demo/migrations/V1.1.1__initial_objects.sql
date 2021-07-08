@@ -3,7 +3,6 @@ CREATE DATABASE IF NOT EXISTS CITIBIKE_DEMO;
 -- Set the database and schema context
 USE SCHEMA CITIBIKE_DEMO.PUBLIC;
 
-
 -- Create the file formats
 CREATE OR REPLACE FILE FORMAT CSV_NO_HEADER
     TYPE='CSV'
